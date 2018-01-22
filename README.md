@@ -138,6 +138,17 @@ To achieve this, you can configure webpack as followed.
 			]
 		},
 		plugins: [
-			new UglifyJSPlugin(...)
+			new UglifyJSPlugin({
+				uglifyOptions: {
+					beautify: true,
+					ecma: 6,
+					compress: true,
+					comments: false
+				}
+			})
 		]
 	};
+
+Once the plugin `remove-react-element` has removed all the usages of the `Desktop` components,
+`uglifyjs` will remove all the *dead code*... so all the unused components should be removed
+from the bundle.
