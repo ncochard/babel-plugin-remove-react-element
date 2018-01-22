@@ -1,0 +1,5 @@
+src/
+package-lock.json
+*.log
+.babelrc
+.eslintrc.json
