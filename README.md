@@ -1,11 +1,11 @@
-# remove-react-element
+# babel-plugin-remove-react-element
 
 > This Babel plugin can be used to remove every usage of a `react` component from code. Used with `webpack`, this can be used to create a bundle for a *mobile* website and a *desktop* website.
 
 ## Installation
 
 ```sh
-npm install --save-dev remove-react-element
+npm install --save-dev babel-plugin-remove-react-element
 ```
 
 ## Usage
