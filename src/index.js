@@ -8,7 +8,7 @@ function removeJSXElement({ types: t }) {
                     return elementNames.indexOf(elementName) >= 0;
                 }
                 if (toBeRemoved(path.get('openingElement').get('name').get('name').node)) {
-                    path.replaceWith(t.expressionStatement(t.nullLiteral()));
+                    path.remove();
                 }
             }
         }
