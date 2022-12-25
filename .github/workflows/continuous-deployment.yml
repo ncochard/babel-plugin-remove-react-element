@@ -21,6 +21,6 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm run test
-      - run: npm publish
+      - run: npm publish --workspace babel-plugin-remove-react-element
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,4 +1,5 @@
 src/
+__tests__/
 package-lock.json
 *.log
 .babelrc

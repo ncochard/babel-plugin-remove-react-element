@@ -1,8 +1,8 @@
 {
   "name": "remove-react-element-test-project",
   "version": "1.0.2",
+  "private": "true",
   "description": "Test project for \"remove-react-element\".",
-  "main": "index.js",
   "author": "Nicolas Cochard",
   "license": "MIT",
   "scripts": {
