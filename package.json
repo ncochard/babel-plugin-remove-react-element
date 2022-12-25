@@ -25,7 +25,8 @@
     "purge": "npm run purge --workspaces && npx rimraf node_modules package-lock.json",
     "clean": "npm run clean --workspaces",
     "build": "npm run build --workspaces",
-    "test": "npm run test --workspaces"
+    "test": "npm run test --workspaces",
+    "bump": "npm version patch --no-git-tag-version && node ./scripts/version.js"
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
