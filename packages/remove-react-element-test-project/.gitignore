@@ -1,0 +1,6 @@
+bundle/
+dist/
+*.log
+*.log.*
+*.orig
+node_modules/

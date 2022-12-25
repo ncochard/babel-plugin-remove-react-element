@@ -1,0 +1,28 @@
+{
+  "name": "remove-react-element-test-project",
+  "version": "1.0.2",
+  "description": "Test project for \"remove-react-element\".",
+  "main": "index.js",
+  "author": "Nicolas Cochard",
+  "license": "MIT",
+  "scripts": {
+    "clean": "npx rimraf ./dist ./bundle",
+    "purge": "npx rimraf ./dist ./bundle ./node_modules",
+    "build": "webpack",
+    "pretest": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.1.0",
+    "@babel/core": "^7.20.7",
+    "babel-plugin-remove-react-element": "*",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "jest": "^29.3.1"
+  }
+}
