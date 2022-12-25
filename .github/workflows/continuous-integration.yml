@@ -21,7 +21,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: node --version
       - run: npm --version
-      - run: npm install npm@9
+      - run: npm install -g npm@9
       - run: npm --version
       - run: npm install
       # - run: npm run build
