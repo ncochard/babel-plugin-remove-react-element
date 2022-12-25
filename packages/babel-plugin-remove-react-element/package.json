@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-react-element",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Removes elements from the source code. Useful when generating multiple bundles.",
   "main": "./dist/index.js",
   "homepage": "https://github.com/ncochard/babel-plugin-remove-react-element#readme",

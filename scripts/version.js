@@ -12,6 +12,7 @@ const dst2 = JSON.parse(fs.readFileSync(dstFile2));
 dst2.version = src.version;
 fs.writeFileSync(dstFile2, JSON.stringify(dst2, null, "  "))
 
+console.log(`npm install`);
 console.log(`git add .`);
 console.log(`git commit -m v${src.version}`);
 console.log(`git tag v${src.version}`);
