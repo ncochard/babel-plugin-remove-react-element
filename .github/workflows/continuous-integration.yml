@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
+      - run: node --version
+      - run: npm --version
       - run: npm install
       - run: npm run build
       - run: npm run test
