@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-react-element-monorepo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": "true",
   "description": "Removes elements from the source code. Useful when generating multiple bundles.",
   "main": "./dist/index.js",
