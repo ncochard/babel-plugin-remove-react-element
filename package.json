@@ -22,7 +22,7 @@
     "packages/remove-react-element-test-project"
   ],
   "scripts": {
-    "purge": "npm run purge --workspaces && npx rimraf node_modules package-lock.json",
+    "purge": "npm run purge --workspaces && npx rimraf node_modules package-lock.json yarn.lock",
     "clean": "npm run clean --workspaces",
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces",
