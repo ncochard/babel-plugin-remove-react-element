@@ -29,6 +29,6 @@
     "bump": "npm version patch --no-git-tag-version && node ./scripts/version.js"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.1"
   }
 }
