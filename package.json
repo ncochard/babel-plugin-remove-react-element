@@ -30,5 +30,8 @@
   "devDependencies": {
     "rimraf": "^5.0.5"
   },
+  "resolutions": {
+    "@babel/traverse": "^7.23.2"
+  },
   "packageManager": "yarn@4.0.1"
 }
