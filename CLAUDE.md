@@ -42,5 +42,5 @@ To add a new test case, add a new fixture directory following this pattern; `__t
 
 ## CI/CD
 
-- `.github/workflows/continuous-integration.yml` runs on push/PR to `main`: `npm install`, `npm run build`, `npm run test` on Node 18.
+- `.github/workflows/continuous-integration.yml` runs on push/PR to `main`: `npm install`, `npm run build`, `npm run test` on Node 24.
 - `.github/workflows/continuous-deployment.yml` runs on tags matching `v[0-9]+.[0-9]+.[0-9]+`: same build/test, then `npm publish --workspace babel-plugin-remove-react-element` using the `NPM_TOKEN` secret. Only the plugin package is published; the test project is not.
