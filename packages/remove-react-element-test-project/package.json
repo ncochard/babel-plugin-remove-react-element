@@ -4,6 +4,9 @@
   "description": "Test project for \"remove-react-element\".",
   "author": "Nicolas Cochard",
   "license": "MIT",
+  "engines": {
+    "node": "24"
+  },
   "scripts": {
     "clean": "npx rimraf ./dist ./bundle",
     "purge": "npx rimraf ./dist ./bundle ./node_modules",

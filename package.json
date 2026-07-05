@@ -20,6 +20,9 @@
     "packages/babel-plugin-remove-react-element",
     "packages/remove-react-element-test-project"
   ],
+  "engines": {
+    "node": "24"
+  },
   "scripts": {
     "purge": "npm run purge --workspaces && npx rimraf node_modules package-lock.json yarn.lock",
     "clean": "npm run clean --workspaces",
@@ -29,6 +32,9 @@
   },
   "devDependencies": {
     "rimraf": "^6.1.3"
+  },
+  "resolutions": {
+    "tar": "^7.5.16"
   },
   "packageManager": "yarn@4.0.1"
 }
