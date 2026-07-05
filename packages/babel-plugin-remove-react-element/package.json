@@ -16,9 +16,6 @@
   "keywords": [
     "babel-plugin"
   ],
-  "engines": {
-    "node": "24"
-  },
   "scripts": {
     "clean": "rimraf ./dist",
     "purge": "npx rimraf ./dist ./node_modules",
